@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
 	},
 	image: {
     flex: 1,
-		 flexDirection: "row"
+		flexDirection: "row",
+		 justifyContent: "space-between"
   },
 });
