@@ -1,11 +1,11 @@
 {
   "expo": {
-		"androidStatusBar": {
-     "hidden": true
+    "androidStatusBar": {
+      "hidden": true
     },
-		"androidNavigationBar": {
-			"visible": "sticky-immersive"
-		},
+    "androidNavigationBar": {
+      "visible": "sticky-immersive"
+    },
     "name": "csgocases-rn",
     "slug": "csgocases-rn",
     "version": "1.0.0",
@@ -30,7 +30,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "csgo.apk"
     },
     "web": {
       "favicon": "./assets/favicon.png"
