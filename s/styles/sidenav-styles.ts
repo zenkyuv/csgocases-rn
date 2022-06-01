@@ -10,11 +10,11 @@ export const styles = StyleSheet.create({
 	elContainer: {
 		width: "100%",
 		alignItems: "center",
-		height: 50,
+		height: 70,
 		justifyContent: "center",
 		borderBottomWidth: 1,
-		borderBottomColor: "black",
-	},
+		borderBottomColor: "rgba(255,255,255,.5)"
+},
 	iconMain: {
 		width: 60,
 		height: 30,
@@ -24,5 +24,9 @@ export const styles = StyleSheet.create({
 		height: 30,
 		marginTop: 20,
 		marginBottom: 20
+	},
+	text: {
+		color: "rgba(255,255,255,.9)",
+		fontWeight: "500",
 	}
 });
