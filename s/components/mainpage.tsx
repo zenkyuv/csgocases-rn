@@ -1,8 +1,8 @@
-import { styles } from "../styles/mainpage-styles"
+import { styles } from "../styles/mainpageStyles"
 import Sidenav from "./sidenav";
 import Inventory from "./inventory";
 import { useContext } from "react";
-import PageStore  from "../states-store/states/page-store";
+import PageStore  from "../states-store/states/pageStore";
 import { observer } from "mobx-react-lite";
 import { ImageBackground, View } from "react-native";
 import ProfileBar from "./profilebar";

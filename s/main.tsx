@@ -1,6 +1,6 @@
 import Mainpage from './components/mainpage';
 import { StoresProvider, stores } from "./states-store/store";
-import "./styles/root-styles.ts"
+import "./styles/rootStyles.ts"
 const Main = () => {
 	return (
 		<StoresProvider value={stores}>

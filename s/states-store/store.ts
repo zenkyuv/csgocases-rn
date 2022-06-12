@@ -1,8 +1,10 @@
 import React from "react";
-import { PageStore } from "./states/page-store";
+import { PageStore } from "./states/pageStore";
+import { UserStore } from "./states/userStore";
 
 export const stores = Object.freeze({
-	pageStore: new PageStore()
+	pageStore: new PageStore(),
+	userStore: new UserStore()
 })
 
 export const storesContext = React.createContext(stores)

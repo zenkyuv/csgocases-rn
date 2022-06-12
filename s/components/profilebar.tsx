@@ -1,6 +1,6 @@
 import { View, Text, Image } from "react-native"
 import BlurView from "expo-blur/build/BlurView";
-import { styles } from "../styles/profilebar-styles"
+import { styles } from "../styles/profilebarStyles"
 
 const ProfileBar = () => {
 	return (
