@@ -4,20 +4,23 @@ export const styles = StyleSheet.create({
 	container: {
 		padding: 10,
 		height: "100%",
-		width: "50%",
+		width: "40%",
 		alignItems: "center",
 		justifyContent: "center",
-		alignSelf: "center"
+		alignSelf: "center",
 	},
 	textInput: {
 		height: 20,
 		width: "100%",
 		borderColor: "black",
-		borderWidth: 1
+		borderWidth: 1,
+		borderRadius: 5,
+		margin: 5
 	},
 	smallText: {
 		fontSize: 10,
-		alignSelf: "flex-end"
+		alignSelf: "flex-end",
+		marginBottom: 5
 	},
 	registerText: {
 		color: "orange"

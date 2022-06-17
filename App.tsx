@@ -1,12 +1,22 @@
+import { useContext, useEffect } from 'react';
 import { StyleSheet, View } from 'react-native';
 import Main from "./s/main"
-export default function App() {
+import UserStore from './s/states-store/states/userStore';
+import SignPanel from "./s/components/signPanel"
+import { observer } from 'mobx-react-lite';
+const App = observer(() => {
+const userStore = useContext(UserStore);
+
+	useEffect(() => {
+		console.log("zaladowalo sie")
+	})
+
   return (
-    <View style={styles.container}>
-			<Main/>
+		<View style={styles.container}>
+			{userStore.userLogged ? <Main/> : <SignPanel/>}
     </View>
   );
-}
+})
 
 const styles = StyleSheet.create({
   container: {
@@ -14,3 +24,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
 });
+
+export default App
