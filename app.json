@@ -23,10 +23,11 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
     "android": {
+			"googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -35,6 +36,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "csgo.apk",
+			"googleServicesFile": "./GoogleService-Info.plist"
     }
   }
 }
