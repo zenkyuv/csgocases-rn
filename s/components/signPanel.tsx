@@ -1,7 +1,7 @@
 import { Formik } from "formik";
 import { useContext, useState } from "react";
 import { Button, Text, TextInput, View } from "react-native";
-import { createUser, signUser } from "../database/auth";
+import { createUser, signUser } from "../firebaseApi/auth";
 import UserStore from "../states-store/states/userStore";
 import { styles } from "../styles/signPanelStyles";
 
