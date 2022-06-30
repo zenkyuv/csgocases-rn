@@ -6,4 +6,4 @@ To work on this project, you need to:
 3. npm start
 4. npm run watch
 5. Enjoy the development 🚀
-Lastly dont forget to disable cache
+- Lastly dont forget to disable cache
